@@ -1,0 +1,209 @@
+
+
+/* Стили для Index.HTML */
+:root {
+    --primery-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primery-bg-color:#ffffff;
+    --portfolio-bg-color: #E5E5E5;
+    --portfolio-button-color:#F5F4FA;
+    --portfolio-accent-color:#2196F3;
+    --portfolio-bgaccent-color:#ffffff;
+    --footer-bg-color:#2F303A;
+}
+
+body{
+    background-color:var(--primery-bg-color) ;
+    color: var(--primery-text-color);
+    font-family: Roboto, sans-serif;
+   
+}
+.link{
+    letter-spacing: 0.02em;
+}
+.list{
+    list-style: none;
+}
+/* header */
+.logo{
+    color:var(--accent-color);
+    font-family: raleway,cursive;
+    font-size: 26px;
+    line-height: 1.44;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-halfname{
+    color: var(--title-text-color);
+    
+}
+
+/* Site-nav */
+.site-nav .link{
+    color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus
+{
+    color:var(--accent-color) 
+}
+.site-nav .link.current{
+    color:var(--accent-color)
+}
+/* auto-nav */
+ .auto-nav  a{
+    color:var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.auto-nav .link:hover,
+.auto-nav .link:focus {
+    color: var(--accent-color)
+}
+/* Main */
+.section{
+    letter-spacing: 0.03em;
+}
+/* Hero */
+.hero{
+    background-color: var(--footer-bg-color);
+    
+}
+.hero-title{
+    color:var(--primery-bg-color) ;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.hero .order{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;                     
+    align-items: center;
+    text-align: center;
+}
+/* Button */
+.order{
+    background-color: var(--accent-color);
+    color: var(--primery-bg-color);
+    cursor: pointer;
+}
+
+/* Section */
+.section-title {
+    color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.title{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+}
+/* Our team */
+.team{
+    background-color: var(--portfolio-button-color);
+}
+.team .specialty{
+    font-weight: 400;
+    font-size: 16px;  
+    line-height: 1.19;
+}
+
+/* Футтер */
+
+.footer{
+    background-color: var(--footer-bg-color);
+    letter-spacing: 0.03em;
+}
+.logotype{
+    color: var(--accent-color);
+    font-family: raleway, cursive;
+    text-decoration: none;
+}
+.logotype-halfname{
+    color: var(--portfolio-bgaccent-color);
+    
+}
+ .address{
+    color: var(--primery-bg-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+ }
+
+/* Стили для портфолио */
+
+
+.work{
+    color: var(--title-text-color);
+    background-color: var(--portfolio-bg-color) ;
+    font-family: Roboto, sans-serif;
+    
+}
+.work .link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+}
+ /* Стили кнопок портфолио*/ 
+.button.list{
+    color: var(--primery-bg-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+   
+} 
+.button.list .link:hover,
+.button.list .link:focus
+{ 
+    color: var(--portfolio-bgaccent-color);
+    background-color: var(--portfolio-accent-color);
+}
+/* Стили проэктов */
+.projects{
+    letter-spacing: 0.06em;
+}
+.projects .title-prg{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.projects .option{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/* цвeт оснопного загаловка color: #FFFFFF; */
+/* цветт загаловков color: #212121; */
+/* цвет абзацов color: #757575; */
+/* цвет акцента color: #2196F3; */
+/* цвет фона первой секции background: #2F303A; */
+/* цвет фона второй секции background: #E5E5E5; */
+/* цвет фонна третей секции background: #F5F4FA; */
