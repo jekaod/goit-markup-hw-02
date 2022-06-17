@@ -169,8 +169,8 @@ letter-spacing: 0.03em;
 .filter-button:hover,
 .filter-button:focus
 { 
-    color: var(--portfolio-accent-color);
-    
+    color: var(--portfolio-bgaccent-color);
+    background-color: var(--portfolio-accent-color);
 }
 /* Стили проэктов */
 .projects{
